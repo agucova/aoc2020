@@ -27,16 +27,16 @@ end
 
 function main()
     numbers = []
-    open("inputs/day0.inp") do input
+    open("inputs/day1.inp") do input
         numbers = sort(parse.(Int, readlines(input)))
     end
     pair = findpair(numbers)
     i, j = pair[1], pair[2]
-    display(i * j)
+    println(i * j)
 
     triplet = findtriplet(numbers)
     i, j, k = triplet[1], triplet[2], triplet[3]
-    display(i * j * k)
+    println(i * j * k)
 end
 
 main()

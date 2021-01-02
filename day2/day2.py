@@ -8,7 +8,7 @@ def is_valid_new(limits: str, character: str, password: str) -> bool:
     return (password[lower] == character) ^ (password[upper] == character)
 
 
-with open("inputs/day1.inp") as f:
+with open("inputs/day2.inp") as f:
     lines = [line.strip("\n").replace(":", "").split(" ") for line in f.readlines()]
 
 # Part 1
