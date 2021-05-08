@@ -32,6 +32,7 @@ Manifest.toml
 nimcache/
 nimblecache/
 htmldocs/
+*.out
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
